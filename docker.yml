@@ -1,0 +1,9 @@
+services:
+  web:
+    image:ze3kr/cloudflare
+ports:
+      - 80:80
+environment:
+    HOST_KEY:20e76a10f8e33f2e38685e2a8afd7734
+    HOST_MAIL:devhjz@outlook.com
+    TITLE:CDN云
